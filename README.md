@@ -42,12 +42,12 @@ Set your desired resolution of images. Also select the dataset you want. You can
 
 I used four different datasets to train the networks.
 
-### Results ### 
+## Results 
 
 I trained the model on four different unpaired datasets.
 
 
-#### monet2photo
+### monet2photo
 Number of trained epochs: 60  <br>
 Resoltion: 256*256  <br>
 
@@ -55,64 +55,75 @@ Results on dataset samples: <br>
 
 
 <p align="center">
+ <b>
     photo to monet
+ </b>
 </p>
+
 <table align='center'>	
 <tr align='center'>
-<td> <img src = 'results/monet2photo/dataset_samples/1.png'>
-<td> <img src = 'results/monet2photo/dataset_samples/3.png'>
+<td> <img src = './results/monet2photo/dataset_samples/img1.png'>
+<td> <img src = './results/monet2photo/dataset_samples/img3.png'>
 </tr>	
 <tr align='center'>
-<td> <img src = 'results/monet2photo/dataset_samples/4.png'>
-<td> <img src = 'results/monet2photo/dataset_samples/6.png'>
+<td> <img src = './results/monet2photo/dataset_samples/img4.png'>
+<td> <img src = './results/monet2photo/dataset_samples/img6.png'>
 </tr>
 </table>
+
 
 Results on random samples(These images are not given to the model in training time) <br>
 
-
 <p align="center">
-    photo to monet
+    <b> photo to monet </b>
 </p>
 <table align='center'>	
 <tr align='center'>
-<td> <img src = 'results/monet2photo/my_images/1.png'>
-<td> <img src = 'results/monet2photo/my_images/4.png'>
+<td> <img src = 'results/monet2photo/my_images/img1.png'>
+<td> <img src = 'results/monet2photo/my_images/img4.png'>
 </tr>	
 <tr align='center'>
-<td> <img src = 'results/monet2photo/my_images/5.png'>
-<td> <img src = 'results/monet2photo/my_images/6.png'>
+<td> <img src = 'results/monet2photo/my_images/img5.png'>
+<td> <img src = 'results/monet2photo/my_images/img6.png'>
 </tr>
 <tr align='center'>
-<td> <img src = 'results/monet2photo/my_images/7.png'>
-<td> <img src = 'results/monet2photo/my_images/8.png'>
+<td> <img src = 'results/monet2photo/my_images/img7.png'>
+<td> <img src = 'results/monet2photo/my_images/img8.png'>
 </tr>
 <tr align='center'>
-<td> <img src = 'results/monet2photo/my_images/9.png'>
-<td> <img src = 'results/monet2photo/my_images/10.png'>
+<td> <img src = 'results/monet2photo/my_images/img9.png'>
+<td> <img src = 'results/monet2photo/my_images/img10.png'>
 </tr>
 </table>
 
 
-
-#### vangogh2photo
+### vangogh2photo
 Number of trained epochs: 200  <br>
 Resoltion: 256*256  <br>
 
 
 dataset samples <br>
 <p align="center">
-    photo to vangogh
+    <b> photo to vangogh </b>
 </p>
+
+<p align="center">
 <img src='./results/vangogh2photo/dataset_samples/photo2vanghogh3.png' />​​ <br>
-<img src='./results/vangogh2photo/dataset_samples/photo2vanghogh4.png' />​​ <br>
-<img src='./results/vangogh2photo/dataset_samples/photo2vanghogh5.png' />​​ <br>
+</p>
+
+<p align="center">
+ <img align="center" src='./results/vangogh2photo/dataset_samples/photo2vanghogh4.png' />​​ <br>
+</p>
+
+<p align="center">
+ <img align="center" src='./results/vangogh2photo/dataset_samples/photo2vanghogh5.png' />​​ <br>
+</p>
 
 
 random samples <br>
 
 <p align="center">
-    photo to vangogh
+    <b> photo to vangogh </b>
 </p>
 <table align='center'>	
 <tr align='center'>
@@ -132,21 +143,24 @@ random samples <br>
 
 
 
-#### apple2orange
+### apple2orange
 Number of trained epochs: 200 <br>
 Resoltion: 128*128 <br>
 
 
 <p align="center">
-    apple to orange
+    <b> apple to orange </b>
 </p>
 <table align='center'>
 <tr align='center'>
 <td> <img src = 'results/apple2orange/2.png'>
 <td> <img src = 'results/apple2orange/3.png'>
 </tr>
+ </table>
+ 
+<table align='center'>
 <p align="center">
-    orange to apple
+    <b> orange to apple </b>
 </p>
 <tr align='center'>
 <td> <img src = 'results/apple2orange/10.png'>
@@ -155,13 +169,10 @@ Resoltion: 128*128 <br>
 </table>
 
 
-
+<p align="center">
+    <b> cycled images </b>
+</p>
 <table align='center'>
-<tr align='center'>
-<td> input image </td>
-<td> predicted image </td>
-<td> cycled image </td>
-</tr>
 <tr align='center'>
 <td> <img src = 'results/apple2orange/12.png'>
 </tr>
@@ -172,25 +183,19 @@ Resoltion: 128*128 <br>
 
 
 
-#### horse2zebra
+### horse2zebra
 Number of trained epochs: 200  <br>
 Resoltion: 128*128  <br>
 
+<p align="center">
 <img src='./results/horse2zebra/X2Y-100.png' />​​ <br>
+</p>
 
+<p align="center">
+<img align="center" src='results/horse2zebra/index.png' />​​ <br>
+</p>
 
-<table align='center'>
-<tr align='center'>
-<td> input image </td>
-<td> predicted image </td>
-<td> cycled image </td>
-</tr>
-<tr align='center'>
-<td> <img src = 'results/horse2zebra/index.png'>
-</tr>
-</table>
-
-
+<br>
 
 
 You can find more generated samples [here](https://github.com/Mohammad-Rahmdel/CycleGAN/tree/master/results).
