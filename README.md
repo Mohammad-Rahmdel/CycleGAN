@@ -16,6 +16,8 @@ Objective function contains two types of terms: adversarial losses (GAN Loss) fo
 Set your desired resolution of images. Also select the dataset you want. You can find the dataset choices [here](https://people.eecs.berkeley.edu/%7Etaesung_park/CycleGAN/datasets/).
 
 
+apple2orange examples: 
+
 <table align='center'>
  <tr align='center'>
 <td> Epoch 1 </td>
@@ -39,8 +41,6 @@ Set your desired resolution of images. Also select the dataset you want. You can
 </tr>
 </table>
 
-
-I used four different datasets to train the networks.
 
 ## Results 
 
