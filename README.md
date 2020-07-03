@@ -49,7 +49,7 @@ I trained the model on four different unpaired datasets.
 
 ### monet2photo
 Number of trained epochs: 60  <br>
-Resoltion: 256*256  <br>
+Resolution: 256*256  <br>
 
 Results on dataset samples: <br>
 
@@ -99,7 +99,7 @@ Results on random samples(These images are not given to the model in training ti
 
 ### vangogh2photo
 Number of trained epochs: 200  <br>
-Resoltion: 256*256  <br>
+Resolution: 256*256  <br>
 
 
 dataset samples <br>
@@ -145,7 +145,7 @@ random samples <br>
 
 ### apple2orange
 Number of trained epochs: 200 <br>
-Resoltion: 128*128 <br>
+Resolution: 128*128 <br>
 
 
 <p align="center">
@@ -185,7 +185,7 @@ Resoltion: 128*128 <br>
 
 ### horse2zebra
 Number of trained epochs: 200  <br>
-Resoltion: 128*128  <br>
+Resolution: 128*128  <br>
 
 <p align="center">
 <img src='./results/horse2zebra/X2Y-100.png' />​​ <br>
